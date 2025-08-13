@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const queryClient = new QueryClient();
+const queryClient = new QueryClient();
 export default function RootLayout({
   children,
 }: Readonly<{
